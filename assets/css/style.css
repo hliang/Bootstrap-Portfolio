@@ -53,20 +53,25 @@ h2 {
     background: #ffffff;
     border: 2px solid #cccccc;
 }
-.nav-item {
+
+/* list-style */
+.ls-none {
+    list-style: none;
+}
+.nav-item2 {
     float: left;
     padding-left: 5px;
     padding-right: 5px;
 }
-.nav-item a {
+.nav-item2 a {
     padding: 10px 15px;
 }
 
-.nav-item a:link, .nav-item a:visited {
+.nav-item2 a:link, .nav-item2 a:visited {
     color: #777777;
     text-decoration-line: none;
 }
-.nav-item a:hover {
+.nav-item2 a:hover {
     /* font-weight: bold; */
     text-decoration-line: underline;
     background: #4aaaa5;
